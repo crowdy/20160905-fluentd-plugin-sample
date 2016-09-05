@@ -1,0 +1,284 @@
+2016-09-05 18:06:17 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:17 +0900 [info]: starting fluentd-0.14.4
+2016-09-05 18:06:17 +0900 [info]: spawn command to main: /home/tkim/.rbenv/versions/2.3.1/bin/ruby -Eascii-8bit:ascii-8bit  -rbundler/setup /home/tkim/.rbenv/versions/2.3.1/bin/fluentd -c /home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf -p /home/tkim/RubymineProjects/fluent-plugin-platformsdk/ --under-supervisor
+2016-09-05 18:06:18 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:18 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:18 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:18 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:18 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:18 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:18 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:18 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:18 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:18 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:18 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:18 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:18 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:18 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:18 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:18 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:18 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:18 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:18 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:18 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:18 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:18 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:18 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:18 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:18 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:18 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:18 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:18 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:19 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:19 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:19 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:19 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:19 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:19 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:19 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:19 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:19 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:19 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:19 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:19 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:19 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:19 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:19 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:19 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:19 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:19 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:19 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:19 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:19 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:19 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:19 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:19 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:19 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:19 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:19 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:19 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:20 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:20 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:20 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:20 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:20 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:20 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:20 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:20 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:20 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:20 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:20 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:20 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:20 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:20 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:20 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:20 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:20 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:20 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:20 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:21 +0900 [info]: reading config file path="/home/tkim/RubymineProjects/fluent-plugin-platformsdk/fluent.conf"
+2016-09-05 18:06:21 +0900 [info]: starting fluentd-0.14.4 without supervision
+2016-09-05 18:06:21 +0900 [info]: gem 'fluentd' version '0.14.4'
+2016-09-05 18:06:21 +0900 [info]: gem 'fluent-plugin-platformsdk' version '0.1.0'
+2016-09-05 18:06:21 +0900 [info]: adding match pattern="PlatformSdk.output" type="OutputPlatformSdk"
+2016-09-05 18:06:21 +0900 [info]: adding match pattern="debug.**" type="stdout"
+2016-09-05 18:06:21 +0900 [info]: adding source type="InputPlatformSdk"
+2016-09-05 18:06:21 +0900 [error]: unexpected error error="uninitialized constant Fluent::Input"
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:7:in `<module:Fluent>'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/RubymineProjects/fluent-plugin-platformsdk/lib/fluent/plugin/in_InputPlatformSdk.rb:4:in `<top (required)>'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `require'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:81:in `search'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/registry.rb:43:in `lookup'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:146:in `new_impl'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/plugin.rb:100:in `new_input'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:232:in `add_source'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:95:in `block in configure'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `each'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/root_agent.rb:92:in `configure'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:119:in `configure'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/engine.rb:93:in `run_configure'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:673:in `run_configure'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:435:in `block in run_worker'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:606:in `main_process'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/supervisor.rb:431:in `run_worker'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/lib/fluent/command/fluentd.rb:271:in `<top (required)>'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `require'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/fluentd-0.14.4/bin/fluentd:5:in `<top (required)>'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `load'
+  2016-09-05 18:06:21 +0900 [error]: /home/tkim/.rbenv/versions/2.3.1/bin/fluentd:23:in `<main>'
+2016-09-05 18:06:21 +0900 [info]: Worker 0 finished unexpectedly with status 1
+2016-09-05 18:06:21 +0900 [info]: Received graceful stop
+2016-09-05 18:06:21 +0900 [info]: Worker 0 finished with signal SIGINT
